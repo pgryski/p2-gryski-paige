@@ -41,4 +41,57 @@ a:visited {
 
 main {
     margin: 5%;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Oleo Script', cursive;
+}
+
+h3 {
+    padding: 2% 5% 2% 5%;
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #5B9D5F;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+    padding: 0 3% 3% 3%;
+}
+
+.verticalline {
+    border-left: thick solid #5B9D5F;
+    border-radius: 4px;
+  }
+
+.homep {
+    display: flex;
+}
+
+.hometext {
+    width: 50%;
+}
+.heroimage {
+    width: 100%;
+}
+
+.buttontext {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.button {
+    background-color: #EFD951;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 15%;
+    border-radius: 4px;
+}
+
+aside {
+    margin: 0 10% 0 10%;
+    color: #666666;
 }
