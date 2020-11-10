@@ -10,7 +10,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 body {
     background-color: black;
-    margin: 5%;
+    margin: 3% 12% 5% 12%;
 }
 
 .logo {
@@ -19,7 +19,12 @@ body {
 
 nav {
     color: white;
-    display: inline;
+    margin: 3% 0 3% 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -31,6 +36,10 @@ a:link {
     text-decoration: none;
 }
 
+ul li a:hover {
+    text-decoration: underline #EFD951;
+}
+
 a:visited {
     color: white;
 }
@@ -40,7 +49,6 @@ a:visited {
 }
 
 main {
-    margin: 5%;
     background-color: white;
 }
 
@@ -75,6 +83,9 @@ p {
 }
 .heroimage {
     width: 100%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .buttontext {
@@ -95,3 +106,26 @@ aside {
     margin: 0 10% 0 10%;
     color: #666666;
 }
+
+.socialmedia {
+    width: 5%;
+    padding: 0 1% 2% 1%;
+}
+
+.socialmediaicons {
+    margin: auto;
+}
+
+#name {
+    text-align: right;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+    opacity: 0;
+}
+  100% {
+    opacity: 1;
+}
+
+
