@@ -8,3 +8,37 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+body {
+    background-color: black;
+    margin: 5%;
+}
+
+.logo {
+    width: 25%
+}
+
+nav {
+    color: white;
+    display: inline;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+#home, #animals, #visitors {
+    color: #EFD951;
+}
+
+main {
+    margin: 5%;
+}
