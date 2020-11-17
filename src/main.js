@@ -6,14 +6,7 @@ xmlhttp.onreadystatechange = function() {
         var apiResult = JSON.parse(this.responseText);
 
          { 
-        
-            function addTempText() {
-                var newTempText = document.createTextNode(apiResult.name);
-                temptext.appendChild(newTempText);
-            };
-            addTempText();
-
-            function addWeatherText() {
+             function addWeatherText() {
                 var newWeatherText = document.createTextNode(apiResult.weather[0].description);
                 weathertext.appendChild(newWeatherText);
             };
