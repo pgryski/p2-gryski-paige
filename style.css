@@ -142,6 +142,21 @@ aside {
     width: 50%;
 }
 
+/*Visitors Form Styling*/
+.volunteerform {
+    font-family: 'Source Serif Pro', 'serif';
+    max-width: 30%;
+    margin: auto;
+    padding: 3%;
+    background: #5B9D5F;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    border-radius: 3px;
+}
+
 /*Animals Page Styling*/
 #grid {
     display: flex;
