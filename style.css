@@ -7,7 +7,7 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
-
+/*General Styling and Homepage*/
 body {
     background-color: black;
     margin: 3% 12% 5% 12%;
@@ -67,6 +67,7 @@ h3 {
 p {
     font-family: 'Source Serif Pro', serif;
     padding: 0 3% 3% 3%;
+    font-size: 1.2rem;
 }
 
 .verticalline {
@@ -109,17 +110,33 @@ aside {
 
 .socialmedia {
     width: 5%;
-    padding: 0 1% 2% 1%;
+    padding: 0 3% 2% 3%;
 }
 
 .socialmediaicons {
     margin: auto;
+    text-align: center;
 }
 
 #name {
     text-align: right;
 }
+/*Visitors Page Styling*/
+.volunteer {
+    width: 30%;
+    display: inline;
+}
 
+.visitorinfo {
+    display: flex;
+}
+
+#visitorintro {
+    padding: 5% 3% 5% 3%;
+    font-size: 1.3rem;
+}
+
+/*Animation*/
 @keyframes fadeInAnimation {
     0% {
     opacity: 0;
