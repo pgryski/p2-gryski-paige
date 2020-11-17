@@ -83,6 +83,7 @@ p {
     width: 50%;
     padding-top: 2%;
 }
+
 .heroimage {
     width: 100%;
     animation: fadeInAnimation ease 5s;
@@ -137,8 +138,19 @@ aside {
     font-size: 1.3rem;
 }
 
-/*Animals Page Styling*/
+#visitorbutton {
+    width: 50%;
+}
 
+/*Animals Page Styling*/
+#grid {
+    display: flex;
+}
+
+.animalimg {
+    width: 28%;
+    margin: 1%;
+}
 
 /*Animation*/
 @keyframes fadeInAnimation {
