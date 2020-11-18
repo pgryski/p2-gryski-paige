@@ -96,23 +96,35 @@ p {
     font-size: 1.5rem;
 }
 
-.button {
+#button {
     background-color: #EFD951;
     margin: auto;
+    display: block;
     margin-top: 2%;
     margin-bottom: 2%;
     width: 15%;
     border-radius: 4px;
 }
 
+
 aside {
     margin: 4% 10% 0 10%;
     color: #666666;
 }
 
+#learnmorepara {
+    margin: 0 10% 0 10%;
+    display: none;
+}
+
 .socialmedia {
     width: 5%;
-    padding: 0 3% 2% 3%;
+    padding: 3%;
+}
+
+.socialmedia:hover {
+    background-color: #EFD951;
+    border-radius: 5px;
 }
 
 .socialmediaicons {
@@ -170,12 +182,39 @@ input {
 /*Animals Page Styling*/
 #grid {
     display: flex;
+    justify-content: space-around;
 }
 
 .animalimg {
     width: 28%;
     margin: 1%;
 }
+
+.collapsible {
+    font-family: 'Oleo Script', cursive;
+    background-color: #EFD951;
+    color: white;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    outline: 1px solid black;
+    font-size: 1.5rem;
+}
+
+.content {
+    padding: 2% 7% 0 7%;
+}
+
+#content1, #content2, #content3, #content4 {
+    display: none;
+}
+  
+  .active, .collapsible:hover {
+    background-color: #5B9D5F;
+  }
 
 /*Animation*/
 @keyframes fadeInAnimation {
@@ -186,4 +225,8 @@ input {
     opacity: 1;
 }
 
+@media (min-width: 770px) {
 
+
+    
+}
