@@ -300,6 +300,12 @@ input {
 }
 }
 
+@media (max-width: 600px) {
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
 @media (max-width: 770px) {
     h3 {
         font-size: 1.5rem;
@@ -327,6 +333,10 @@ input {
     .hometext {
         width: 90%;
     }
+
+    #weathersection {
+        max-width: 60%;
+    }
 }
 
 
@@ -344,13 +354,15 @@ input {
         display: block;
     }
 
-    #visitorintro {
-        width: 100%;
-        display: block;
-    }
-
     .volunteer {
         width: 100%;
+        display: block;
+        margin: auto;
+        padding-top: 2%;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
 
