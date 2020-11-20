@@ -40,6 +40,14 @@ nav ul {
   
   /* Horizontal Menu Items */
   #hamitems { display: none; }
+  
+  div#hamitems {
+    position: fixed;
+    z-index: 2;
+    right: 17%;
+    background-color: black;
+    padding: 2%;
+}
   #hamitems a {
     width: 20%;
     padding: 3%;
@@ -243,7 +251,9 @@ input {
 }
 
 /*Animals Page Styling*/
-/* fix alignment of grid*/
+.grid {
+    text-align: center;
+}
 #grid {
     display: flex;
     justify-content: space-between;

@@ -15,8 +15,26 @@
 
 	<body>
 		<header>
-			<img src="images/logo.png" class="logo" alt="logo">
-			<nav>
+			<div class="logoandhamburger">
+				<!--Hamburger Menu-->
+				<nav id="hamnav">
+					<!-- [THE HAMBURGER] -->
+					<label for="hamburger">&#9776;</label>
+					<input type="checkbox" id="hamburger"/>
+				   
+					<!-- [MENU ITEMS] -->
+					<div id="hamitems">
+						<a href="index.html">Home</a>
+						<a href="#">About</a>
+						<a href="animals.html">Our Animals</a>
+						<a href="#">Support Us</a>
+						<a href="visitors.html">Visitors/Volunteers</a>
+					</div>
+				  </nav>
+				<!--End of Hamburger Menu-->
+				<img src="images/logo.png" class="logo" alt="logo">
+				</div>
+			<nav id="mainnav">
 				<ul>
 					<li><a href="index.html"><h2>Home</h2></a></li>
 					<li><a href="#"><h2>About</h2></a></li>
@@ -70,7 +88,7 @@
 			<a href="youtube.com/channel/UCxhc1F22sl-NEtvpktdojZw"><img src="images/youtube.png" alt="youtube" class="socialmedia"></a>
 		</div>
 	</main>
-	<script src="src/main.js"></script>
+	<script src="src/visitors.js"></script>
 	</body>
 
 </html>
